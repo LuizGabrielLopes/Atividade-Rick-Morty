@@ -7,7 +7,10 @@ export default function CharacterCard({character}){
             className={styles.avatar}
             alt={character.name} />
         <h3 className={styles.title}>{character.name}</h3>
-        <p>Nome do Personagem</p>
+        <p>{character.status}</p>
+        <p>{character.species}</p>
+        <p>{character.type}</p>
+        <p>{character.gender}</p>
         </div>
     )
 };
