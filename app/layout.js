@@ -6,6 +6,9 @@ import "../app/globals.css";
 			export default function RootLayout({ children }) {
 				return (
 					<html>
+						<head>
+							<link rel="icon" href="/morty.png" />
+						</head>
 						<body>{children}</body>
 					</html>
 );
